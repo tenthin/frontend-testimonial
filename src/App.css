@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+/* comment your code: */
+/*style sheet for website*/
+
+/* Main body styles */
+body {
+  font-family: 'Barlow Semi Condensed', sans-serif;
+  font-size: 16px;
+  background-color: #ECF2F8;;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* profile name font size */
+/* profile Image size */
+img{
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.name{
+  color: #FFF;
+  font-family: Barlow Semi Condensed;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 13px; /* 100% */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.qualification {
+  color: #FFF;
+  font-family: Barlow Semi Condensed;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 11px; /* 100% */
+  opacity: 0.5;
+}
+
+
+/*  heading styles*/
+h1{
+  font-size: 20px;
+  /* margin-right: 32px;
+  margin-left: 32px; */
+}
+
+/*paragraph content */
+p{
+  font-family: Barlow Semi Condensed;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 138.462% */
+
+}
+
+/*add more global styles as needed*/
+.container{
+  width: 1110px;
+  height: 572px;
+  flex-shrink: 0;
+  /* margin: 0 auto; */
+}
+
+/*Classes for reusable style*/
+/*Define reusable classes for common styles to avoid repetitive code*/
+
+/*Reusable class for primary text color  */
+
+/* add more reusable classes*/
+
+.content{
+  /* margin-top: 26px; */
+  margin-right: 32px;
+  margin-left: 32px;
+}
+
+.info{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 17px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.first{
+  width: 540px;
+  height: 282px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #733FC8;
+  box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  h1{
+    width: 476px;
+    color: #FFF;
+    font-family: Barlow Semi Condensed;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
-  to {
-    transform: rotate(360deg);
+
+  p{
+    width: 476px;
+    color: #CFCFCF;
+    font-family: Barlow Semi Condensed;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 138.462% */
   }
+}
+@media screen and (max-width: 375px){
+  /* styles for mobile screen */
 }
